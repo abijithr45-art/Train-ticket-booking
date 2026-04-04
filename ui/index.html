@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Train Ticket Booking</title>
+
+<link rel="stylesheet" href="C:\Users\admin\Desktop\Abijith re\cricket match\css\style.css">
+</head>
+
+<body>
+
+<header>
+<div>Train Ticket Booking</div>
+<nav>
+<span onclick="logout()">Logout</span>
+<span onclick="showBookings()">My Bookings</span>
+<span onclick="showPage('homePage')">Home</span>
+</nav>
+</header>
+
+<div class="card hidden" id="homePage">
+  <h2>Welcome to Train Booking </h2>
+  <p>Book your train tickets easily</p>
+
+  <button onclick="showPage('searchPage')">Book Ticket</button>
+  <button onclick="showBookings()">My Bookings</button>
+</div>
+
+
+<div class="container">
+
+
+<div class="card" id="loginPage">
+<h3>Login</h3>
+<input id="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<button onclick="login()">Login</button>
+<button onclick="signup()">Signup</button>
+</div>
+
+<!-- SEARCH -->
+<div class="card hidden" id="searchPage">
+<select id="from">
+<option>Alappuzha</option>
+<option>Ernakulam Junction</option>
+<option>Kollam Junction</option>
+<option>Thrissur</option>
+<option>Kozhikode</option>
+<option>Kannur</option>
+</select>
+
+<select id="to">
+<option>Ernakulam Junction</option>
+<option>Alappuzha</option>
+<option>Kollam Junction</option>
+<option>Thrissur</option>
+<option>Kozhikode</option>
+<option>Kannur</option>
+</select>
+
+<input type="date" id="date">
+<button onclick="searchTrain()">Search</button>
+</div>
+
+<div id="trainlist">
+</div>
+
+<!-- SEAT -->
+<div class="card hidden" id="seatPage">
+<div class="seats" id="seats"></div>
+<button onclick="goPayment()">Proceed</button>
+</div>
+
+<!-- PAYMENT -->
+<div class="card hidden" id="paymentPage">
+  <h3>Processing Payment...</h3>
+
+  <div class="loader"></div>
+
+  <p id="paymentStatus">Please wait...</p>
+</div>
+<!-- TICKET -->
+<div class="card hidden" id="ticketPage"></div>
+
+<!-- BOOKINGS -->
+<div class="card hidden" id="bookingPage">
+<h3>Recent Bookings</h3>
+<div id="bookingList"></div>
+</div>
+
+
+</div>
+<footer>
+<p>All Rights Reserved to Abijith R</p>
+</footer>
+
+<script src="C:\Users\admin\Desktop\Abijith re\cricket match\js\script.js"></script>
+</body>
+</html>

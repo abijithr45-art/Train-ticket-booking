@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "email": "abijithr45@gmail.com",
+      "password": "Abijith123",
+      "id": 1
+    }
+  ],
+  "bookings": [
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Kollam Junction",
+      "date": "2026-03-31",
+      "seat": 14,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Alappuzha",
+      "date": "2026-03-07",
+      "seat": 10,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Alappuzha",
+      "date": "2026-03-12",
+      "seat": 14,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Alappuzha",
+      "date": "2026-03-07",
+      "seat": 14,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-04",
+      "seat": 14,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-09",
+      "seat": 18,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-09",
+      "seat": 14,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-12",
+      "seat": 14,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-04",
+      "seat": 9,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-04",
+      "seat": 10,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-04",
+      "seat": 11,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "from": "Alappuzha",
+      "to": "Ernakulam Junction",
+      "date": "2026-04-11",
+      "seat": 2,
+      "id": 12
+    }
+  ]
+}
